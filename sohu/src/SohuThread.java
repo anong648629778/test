@@ -15,7 +15,7 @@ public class SohuThread extends Thread{
 		}
 	}
 	@Override
-	public void run() {
+	public void run() { 
 		Thread t = Thread.currentThread();
 		long i = 0;
 		while(true) {
